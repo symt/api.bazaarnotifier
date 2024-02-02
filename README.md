@@ -1,2 +1,3 @@
-# api.bazaarnotifier
-API for BazaarNotifier mod
+# BazaarNotifier API
+
+
