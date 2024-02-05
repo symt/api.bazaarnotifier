@@ -7,4 +7,12 @@ public class Failure extends Response {
     this.success = false;
     this.response = response;
   }
+
+  public boolean getSuccess() {
+    return this.success;
+  }
+
+  public String getResponse() {
+    return this.response;
+  }
 }

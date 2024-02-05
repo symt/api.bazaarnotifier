@@ -1,6 +1,9 @@
 package dev.meyi.bn.constants;
 
 public class ResponseText {
-  public static String BAD_UUID = "Invalid UUID given";
 
+  public static final String BAD_TOKEN = "Invalid authentication token provided";
+  public static final String BAD_UUID = "Invalid UUID provided. Either the format was wrong or the UUID isn't tied to the correct account";
+
+  public static final String NO_ACTIVE_ACCOUNT = "No account has been tied to this authentication token";
 }
