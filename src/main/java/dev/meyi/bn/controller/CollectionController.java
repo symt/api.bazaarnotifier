@@ -1,5 +1,6 @@
 package dev.meyi.bn.controller;
 
+import dev.meyi.bn.BazaarNotifier;
 import dev.meyi.bn.constants.ResponseText;
 import dev.meyi.bn.entity.AuthToken;
 import dev.meyi.bn.entity.Player;
