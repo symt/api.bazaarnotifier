@@ -18,5 +18,6 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.google.code.gson:gson:2.10.1")
 	runtimeOnly("com.h2database:h2")
 }

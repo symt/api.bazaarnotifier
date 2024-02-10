@@ -1,0 +1,1 @@
+This is just a collection of DTOs modeling the Hypixel API response for /v2/skyblock/profiles

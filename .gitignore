@@ -21,5 +21,9 @@ gradle-app.setting
 .classpath
 
 *.mv.db
+*.trace.db
+
 out/
 **/.env
+
+.idea

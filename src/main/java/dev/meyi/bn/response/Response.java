@@ -1,6 +1,18 @@
 package dev.meyi.bn.response;
 
-public abstract class Response {
+/**
+ * Generic response object used in the implementation of all other Response objects
+ */
+public abstract class Response<T> {
+
   protected boolean success;
-  protected String response;
+  protected T response;
+
+  public T getResponse() {
+    return this.response;
+  }
+
+  public boolean getSuccess() {
+    return this.success;
+  }
 }
